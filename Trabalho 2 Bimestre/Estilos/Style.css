@@ -1,0 +1,793 @@
+/*CSS Primeria página (Index.html)*/
+.barra{
+    overflow: hidden;
+}
+.barraMenu_Superio{
+    background-color: slateblue;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    left: 0%;
+    top: 0%;
+}
+.barraMenu_Lateral{
+    background-color: slateblue;
+    position: fixed;
+    z-index: 100;
+    height:100%;
+    width: 70px;
+    left: 0%;
+}
+.imagem_Menu{
+    position: fixed;
+    z-index: 101;
+    height: 8%;
+}
+.titulo_Menu{
+    position: fixed;
+    z-index: 101;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    left: 40%;
+    top: -2%;
+}
+.area_Terreno{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: 40%;
+    left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.terreno_Retangulo{
+    position: relative;
+    width: 10%;
+    top: 25%;
+    left: 8%;
+}
+.ferraduras{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: 25%;
+    left: 28.3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Ferradura{
+    position: relative;
+    width: 8%;
+    top: 4%;
+    left: 29%;
+}
+.padaria{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: 2%;
+    left: 45.1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Padaria{
+    position: relative;
+    width: 8%;
+    top: -23%;
+    left: 46%;
+}
+.Dia_de_vida{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -25%;
+    left: 64.2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Garoto{
+    position: relative;
+    width: 8%;
+    top: -47%;
+    left: 65%;
+}
+.gasolina{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -48.5%;
+    left: 83.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Gasolina{
+    position: relative;
+    width: 7%;
+    top: -74%;
+    left: 85%;
+}
+.restaurante{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -45%;
+    left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Restaurante{
+    position: relative;
+    width: 7%;
+    top: -67%;
+    left: 9.4%;
+}
+.data{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -69%;
+    left: 28.3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Calendario{
+    position: relative;
+    width: 7%;
+    top: -85%;
+    left: 30%;
+}
+.camiseta{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -87%;
+    left: 45.1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Camiseta{
+    position: relative;
+    width: 7%;
+    top: -105%;
+    left: 46.6%;
+}
+.cartesiano{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -110%;
+    left: 64.2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Cartesiano{
+    position: relative;
+    width: 8%;
+    top: -133%;
+    left: 65%;
+}
+.acidentes{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -136%;
+    left: 83.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_capacete{
+    position: relative;
+    width: 8%;
+    top: -160%;
+    left: 84%;
+}
+.salario{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -136%;
+    left: 19%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Salario{
+    position: relative;
+    width: 8%;
+    top: -155%;
+    left: 20.5%;
+}
+.numeros{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -155.2%;
+    left: 37%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Numero{
+    position: relative;
+    width: 8%;
+    top: -175%;
+    left: 37.9%;
+}
+.pizza{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -177%;
+    left: 54.4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Pizza{
+    position: relative;
+    width: 8%;
+    top: -196%;
+    left: 55.4%;
+}
+.amigos{
+    position: relative;
+    width: 10%;
+    z-index: 2;
+    text-align: center;
+    top: -200.5%;
+    left: 74.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.img_Amigos{
+    position: relative;
+    width: 8%;
+    top: -220%;
+    left: 75.3%;
+}
+/*Segunda página(area.html)*/
+.retangulo {
+    position: relative;
+    top: 50%;
+    left:40%;
+    width: 21%;
+    height: 20%;
+    background-color: transparent;
+    border: 5px solid black;
+}
+.numero_Largura{
+    position: relative;
+    left: 28%;
+    top: 38%;
+}  
+.numero_comprimento{
+    position: relative;
+    left: 500px;
+    top: 52%;
+}
+.botao{
+    position: relative;
+    width: 11%;
+    top: 38%;
+    left: 22%;
+}
+.area{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    position: relative;
+    width: 10%;
+    left: 41%;
+}
+.texto_Vazio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    position: relative;
+    width: 50%;
+    left: 50%;
+    top: 66px;
+}
+/*Terceira página(ferraduras)*/
+.img_Haras{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 45%;
+}
+.numero_Cavalos{
+    width: 11%;
+    position: relative;
+    left: -10%;
+    top: -51%;
+}
+.igual_Ferraduras{
+    position: relative;
+    width: 10%;
+    top: 21%;
+    left: 38%;
+}
+.enter_Ferraduras{
+    position: relative;
+    height: 23px;
+    top: -61%;
+    left: 47%;
+}
+/*Quarta página(padaria)*/
+.pao_img{
+    position: relative;
+    width: 10%;
+    left: 15%;
+    top: 30%;
+}
+.valor_pao{
+    position: relative;
+    left: 25%;
+    width: 15%;
+    top: 20%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.quantidade_pao{
+    position: relative;
+    width: 14%;
+    left: 11%;
+    top: 7%;
+}
+.broa_img{
+    position: relative;
+    width: 10%;
+    left: -1%;
+    top: 35%;
+}
+.valor_brao{
+    position: relative;
+    left: 25%;
+    width: 15%;
+    top: 23%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.quantidade_broa{
+    position: relative;
+    width: 14%;
+    left: 11%;
+    top: 24%;
+}
+.botao_Padaria{
+    position: relative;
+    top: 30%;
+    left: -2;
+} 
+.lucro_Texto{
+    position: relative;
+    left:40%;
+    width: 30%;
+    top: -50%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.poupanca_Img{
+    position: relative;
+    width: 10%;
+    left: 70%;
+    top:-22%;
+}
+.poupanca{
+    position: relative;
+    left:68%;
+    width: 30%;
+    top: -25%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+/*Quinta página(dias de vida)*/
+.img_Pessoa{
+    position: relative;
+    top: 30%;
+    width: 30%;
+}
+.texto_Nome{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    top: -35%;
+    left: 10%;
+    width: 4%;
+}
+.colocar_Nome{
+    position: relative;
+    top: -40%;
+    left: 15%;
+    width: 8%;
+}
+.texto_idade{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    top: -25%;
+    left: 20%;
+    width: 4%;
+}
+.colocar_Idd{
+    position: relative;
+    top: -26%;
+    left: 20%;
+    width: 4%;
+}
+.botao_idd{
+    position: relative;
+    left: 7%;
+    width: 7%;
+    top: 11%;
+}
+.tempo_Texto{
+    position: relative;
+    left: 55%;
+    top: -56%;
+    width: 12%;
+    text-align: right;
+}
+.aletera_Texto{
+    position: relative;
+    left: 67%;
+    top: -96.4%;
+    width: 12%;
+}
+/*Sexta página(valor gasolina)*/
+.img_Tanque{
+    position: relative;
+    left: 5%;
+    width: 35%;
+    top: 27%;
+}
+.texto_Valor{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 12%;
+    height: 18%;
+    border: black solid 2px;
+    font-weight: 900;
+    top: -30%;
+    left: 36%;
+}
+.texto_Abastecer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    width: 12%;
+    font-weight: 900;
+    top: -60%;
+    left: 60%;
+}
+.abastecer_Valor{
+    position: relative;
+    top: -64%;
+    left: 60%;
+}
+.litros_combustivel{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 10%;
+    font-weight: 900;
+    top: -75.7%;
+    left:80%;
+    text-align: center;
+}
+.botao_combustivel{
+    position: relative;
+    top: -87%;
+    left: 83%;
+}
+/*Setima página(Restaurante Bem-Bão)*/
+.img_Balança{
+    z-index: 1;
+    position: relative;
+    width: 39.5%;
+    top: 20%;
+    left: 30%;
+}
+.img_prato{
+    z-index: 2;
+    position: relative;
+    width: 25%;
+    bottom: 39%;
+    left: -4%;
+}
+.texto_ValorKG{
+    position: relative;
+    z-index: 3;
+    width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 900;
+    top: -34.3%;
+    left: 42.1%;
+    border-bottom: solid 2px;
+}
+.quantidade_KG{
+    position: relative;
+    z-index: 3;
+    bottom: 27.5%;
+    left: 46%;
+    width: 8%;
+}
+.botao_KG{
+    position: relative;
+    z-index: 3;
+    bottom: 24%;
+    left: 39.7%;
+}
+.texto_Valor_pagar{
+    position: relative;
+    z-index: 3;
+    width: 30%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    top: -32.1%;
+    left: 60%;
+}
+/*Oitava página(data)*/
+.data_texto{
+    position: relative;
+    left: 10%;
+    top: 50%;
+    width: 
+    37%;
+    z-index: 2;
+}
+.titulo_texto{
+    position: relative;
+    left: 10%;
+    top: 50%;
+    width: 37%;
+    z-index: 2;
+}
+.resultado_Data{
+    position: relative;
+    left: 10%;
+    top: 50%;
+    width: 37%;
+    z-index: 2;
+}
+.calendaria_img{
+    position: fixed;
+    left: 9%;
+    top: 5%;
+    width: 37%;
+    z-index: 1;
+}
+/*Nona página(Camisetas)*/
+.img_Camisetas{
+    position: relative;
+    width: 20%;
+    left: 21%;
+    top: 35%;
+}
+.input_G{
+    position: relative;
+    left: -35.5%;
+    top: 37%;
+    z-index: 2;
+}
+.input_M{
+    position: relative;
+    left: -26.7%;
+    top: 37%;
+    z-index: 2;
+}
+.input_P{
+    position: relative;
+    left: -18.7%;
+    top: 37%;
+    z-index: 2;
+}
+.botao_Camisetas{
+    position: relative;
+    left: 49%;
+    top: 40%;
+    z-index: 2;
+}
+.texto_Valor_Camisetas{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    left: 26%;
+    top: 40%;
+    z-index: 2;
+    width: 50%;
+}
+/*Decima página(Pontos cartesiano)*/
+.ponto_Um_XY{
+    position: relative;
+    left: 20%;
+    top: 60%;
+}
+.ponto_dois_XY{
+    position: relative;
+    left: -3.45%;
+    top: 65%;
+}
+.texto_A{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    position: relative;
+    left: 17%;
+    top: 54.4%;
+    width: 1%;
+}
+.texto_B{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    position: relative;
+    left: 17%;
+    top: 54.4%;
+    width: 1%;
+}
+.botao_Cartesiano{
+    position: relative;
+    left: 28%;
+    top: 55%;
+}
+.texte_Valor_pontos{
+    position: relative;
+    width: 30%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 51%;
+    top: 41.6%
+}
+.img_Cartesiano_pg{
+    position: relative;
+    width: 20%;
+    top: -10%;
+    left: 21.5%;
+}
+/*Decima primeira página(tempo sem acidente)*/
+.campo_numero{
+    z-index: 1;
+    position: relative;
+    top: 50%;
+    left: 25%;
+}
+.botao_acidente{
+    z-index: 1;
+    position: relative;
+    top: 50%;
+    left: 25%;
+}
+.acidente_resultado{
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    width: 25%;
+    top: 50%;
+    left: 19%;
+}
+.capacete_img{
+    z-index: 0;
+    position: relative;
+    width: 25%;
+    top: -10%;
+    left: 20%; 
+}
+/*Decima segunda página(salário aumento)*/
+.img_carteira{
+    position: relative;
+    width: 35%;
+    top: 15%;
+    left: 5%;    
+}
+.input_Salario{
+    position: relative;
+    top: 20%;
+    left: -24%;
+}
+.botao_Salario{
+    position: relative;
+    top: 20%;
+    left: -24%;
+}
+.texto_Salario{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    left: 55%;
+    top: -40%;
+}
+.texto_Salario_Resultado{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    left: 75%;
+    top: -55.6%;
+}
+/*Decima terceira página(números inteiros)*/
+.texto_numero{
+    position: relative;
+    font-size: 90%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 32%;
+    left: 20%;
+}
+.input_numeros_inteiros{
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+.botao_numero{
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+.texto_inteiro{
+    position: relative;
+    font-size: 90%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 21%;
+    left: 60%;
+}
+.resultado_inteiro{
+    position: relative;
+    font-size: 90%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 6.5%;
+    left: 70%;
+}
+/*Decima quarta página(área pizza)*/
+.texto_Pizza{
+    position: relative;
+    font-size: 90%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 32%;
+    left: 20%;
+}
+.input_Pizza{
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+.botao_Pizza{
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+.resultado_Pizza{
+    position: relative;
+    font-size: 90%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 30%;
+    left: 20.1%;
+}
+.pizza_img{
+    position: fixed;
+    top: 5%;
+    left: 50%;
+}
+/*Ultima pagina*/
+.amigos_x{
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
